@@ -104,8 +104,8 @@ iface = gr.ChatInterface(
     chat_with_gemini,
     title="🤖 Gemini Chat with Shell Command Tool",
     description=(
-        "Ask Gemini questions or input commands like **`做 ls -la /root`** to execute shell commands. "
-        "Commands are run in the environment where this script is executed (e.g., WSL/Linux/Windows Shell)."
+        "可以向 Gemini 提问，或输入类似 **做 ls -la /root** 这样的指令来执行 Shell 命令 "
+        "可用 linux 互动指令  expect 叫AI 去 ssh 去其他机器做事，例如建环境，写程式"
     )
 )
 
